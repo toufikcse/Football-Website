@@ -1,0 +1,65 @@
+/* font awsome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common style */
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+.header-section{
+    background-color: #2D25A0;
+    height: 677px;
+    display: flex;
+}
+.top-left{
+    margin-left: 156px;
+    margin-right: 90px;
+    margin-top: 131px;
+}
+.top-left h2{
+    color: white;
+    font-size: 54px;
+}
+.top-right img{
+    width: 556px;
+    height: 438px;
+    padding-top: 67px;
+    padding-right: 130px;
+    padding-left: 0;
+}
+.watch-live{
+    width: 24px;
+    height: 24px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+}
+/* middle section */
+.player-section{
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 45px;
+    grid-column-gap: 30px;
+}
+.player{
+    width: 300px;
+    height: 426px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player p{
+    width: 300px;
+    height: 104px;
+    font-weight: 400px;
+}
