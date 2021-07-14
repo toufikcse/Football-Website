@@ -63,3 +63,39 @@ body{
     height: 104px;
     font-weight: 400px;
 }
+
+/* footer section */
+footer{
+    margin-top: 100px;
+}
+.picture img{
+    width: 500px;
+    height: 110px;
+    padding-left: 425px;
+}
+.social_link{
+    padding-left: 650px;
+}
+.copyright{
+    text-align: center;
+}
+
+/* ----------------------
+Mobile Device Responsive 
+--------------------------*/
+
+@media only screen and (max-width:688px) {
+    .header-section, .picture, .copyright{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-section{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .social_link{
+        padding-left: 175px;
+    }
+}
